@@ -1,6 +1,5 @@
-package com.example.kafkaexample.listener;
+package com.example.kafkaexample.consumer;
 
-import com.example.kafkaexample.dto.MessageRequest;
 import com.example.kafkaexample.service.KafkaMessageService;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
@@ -10,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Log4j2
 @AllArgsConstructor
-public class KafkaListeners {
+public class KafkaConsumer {
 
     private final KafkaMessageService kafkaMessageService;
 
