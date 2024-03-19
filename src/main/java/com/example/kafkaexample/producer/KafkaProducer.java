@@ -1,9 +1,8 @@
 package com.example.kafkaexample.producer;
 
-import com.example.kafkaexample.dto.MessageRequest;
 import lombok.RequiredArgsConstructor;
-import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
+import org.springframework.kafka.core.KafkaTemplate;
 
 @Component
 @RequiredArgsConstructor
